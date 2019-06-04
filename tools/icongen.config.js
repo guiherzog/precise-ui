@@ -19,7 +19,7 @@ module.exports = {
     'ic_bookmark_24px.svg',
     'ic_border_clear_24px.svg',
     'ic_cached_24px.svg',
-    'ic_calendar_view_day_24px.svg',
+    'ic_view_day_24px.svg',
     'ic_cancel_24px.svg',
     'ic_check_24px.svg',
     'ic_check_box_24px.svg',
