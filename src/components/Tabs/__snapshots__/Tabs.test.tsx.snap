@@ -1,0 +1,1131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> should render a <Tabs> component with some props 1`] = `
+.c0 {
+  margin: 0 0 0.25rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: 3rem;
+}
+
+.c1:hover {
+  color: rgba(0,139,208,1);
+  border: none;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c2 {
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: 3rem;
+  font-weight: 500;
+  color: rgba(0,0,0,1);
+  border-color: rgba(64,64,64,1);
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c3 {
+  display: none;
+}
+
+@media (min-width:980px) {
+  .c1 {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c1 {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c1 {
+    line-height: 1.375rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c2 {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:980px) {
+  .c2 {
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width:979px) {
+  .c2 {
+    line-height: 1.375rem;
+  }
+}
+
+<Tabs
+  defaultIndex={2}
+>
+  <TabControl
+    defaultIndex={2}
+    render={[Function]}
+  >
+    <Responsive
+      items={
+        Array [
+          Object {
+            "active": false,
+            "element": <TabPage
+              header="First"
+            >
+              First content.
+            </TabPage>,
+            "onSelect": [Function],
+          },
+          Object {
+            "active": false,
+            "element": <TabPage
+              header="Second"
+            >
+              Second content.
+            </TabPage>,
+            "onSelect": [Function],
+          },
+          Object {
+            "active": true,
+            "element": <TabPage
+              header="Third"
+            >
+              Third content.
+            </TabPage>,
+            "onSelect": [Function],
+          },
+          Object {
+            "active": false,
+            "element": <TabPage
+              header="Last"
+            >
+              Final content.
+            </TabPage>,
+            "onSelect": [Function],
+          },
+        ]
+      }
+    >
+      <ModeProvider
+        dimensions={
+          Object {
+            "angle": 0,
+            "height": 768,
+            "width": 1024,
+          }
+        }
+        innerRef={[Function]}
+        items={
+          Array [
+            Object {
+              "active": false,
+              "element": <TabPage
+                header="First"
+              >
+                First content.
+              </TabPage>,
+              "onSelect": [Function],
+            },
+            Object {
+              "active": false,
+              "element": <TabPage
+                header="Second"
+              >
+                Second content.
+              </TabPage>,
+              "onSelect": [Function],
+            },
+            Object {
+              "active": true,
+              "element": <TabPage
+                header="Third"
+              >
+                Third content.
+              </TabPage>,
+              "onSelect": [Function],
+            },
+            Object {
+              "active": false,
+              "element": <TabPage
+                header="Last"
+              >
+                Final content.
+              </TabPage>,
+              "onSelect": [Function],
+            },
+          ]
+        }
+      >
+        <TabInt
+          dimensions={
+            Object {
+              "angle": 0,
+              "height": 768,
+              "width": 1024,
+            }
+          }
+          innerRef={[Function]}
+          items={
+            Array [
+              Object {
+                "active": false,
+                "element": <TabPage
+                  header="First"
+                >
+                  First content.
+                </TabPage>,
+                "onSelect": [Function],
+              },
+              Object {
+                "active": false,
+                "element": <TabPage
+                  header="Second"
+                >
+                  Second content.
+                </TabPage>,
+                "onSelect": [Function],
+              },
+              Object {
+                "active": true,
+                "element": <TabPage
+                  header="Third"
+                >
+                  Third content.
+                </TabPage>,
+                "onSelect": [Function],
+              },
+              Object {
+                "active": false,
+                "element": <TabPage
+                  header="Last"
+                >
+                  Final content.
+                </TabPage>,
+                "onSelect": [Function],
+              },
+            ]
+          }
+          mode="tab"
+        >
+          <div>
+            <TabPanel
+              data={
+                Array [
+                  Object {
+                    "active": false,
+                    "element": <TabPage
+                      header="First"
+                    >
+                      First content.
+                    </TabPage>,
+                    "onSelect": [Function],
+                  },
+                  Object {
+                    "active": false,
+                    "element": <TabPage
+                      header="Second"
+                    >
+                      Second content.
+                    </TabPage>,
+                    "onSelect": [Function],
+                  },
+                  Object {
+                    "active": true,
+                    "element": <TabPage
+                      header="Third"
+                    >
+                      Third content.
+                    </TabPage>,
+                    "onSelect": [Function],
+                  },
+                  Object {
+                    "active": false,
+                    "element": <TabPage
+                      header="Last"
+                    >
+                      Final content.
+                    </TabPage>,
+                    "onSelect": [Function],
+                  },
+                ]
+              }
+              dimensions={
+                Object {
+                  "angle": 0,
+                  "height": 768,
+                  "width": 1024,
+                }
+              }
+            >
+              <styled.div
+                dimensions={
+                  Object {
+                    "angle": 0,
+                    "height": 768,
+                    "width": 1024,
+                  }
+                }
+              >
+                <StyledComponent
+                  dimensions={
+                    Object {
+                      "angle": 0,
+                      "height": 768,
+                      "width": 1024,
+                    }
+                  }
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": true,
+                        "lastClassName": "bDWFJH",
+                        "rules": Array [],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className=""
+                  >
+                    <styled.ul>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bwzfXH",
+                              "isStatic": true,
+                              "lastClassName": "c0",
+                              "rules": Array [
+                                "
+  margin: 0 0 ",
+                                "0.25rem",
+                                ";
+  padding: 0;
+  display: flex;
+",
+                              ],
+                            },
+                            "displayName": "styled.ul",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bwzfXH",
+                            "target": "ul",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <ul
+                          className="c0"
+                        >
+                          <styled.li
+                            active={false}
+                            key="head-0"
+                            onClick={[Function]}
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bxivhb",
+                                    "isStatic": false,
+                                    "lastClassName": "c1",
+                                    "rules": Array [
+                                      "
+  ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1.1875rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.5rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.375rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "font-weight: 400;",
+                                      "
+  ",
+                                      "
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: ",
+                                      "3rem",
+                                      ";
+  ",
+                                      [Function],
+                                      ";
+
+  &:last-child {
+    margin-right: 0;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.li",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bxivhb",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              onClick={[Function]}
+                            >
+                              <li
+                                className="c1"
+                                onClick={[Function]}
+                              >
+                                First
+                              </li>
+                            </StyledComponent>
+                          </styled.li>
+                          <styled.li
+                            active={false}
+                            key="head-1"
+                            onClick={[Function]}
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bxivhb",
+                                    "isStatic": false,
+                                    "lastClassName": "c1",
+                                    "rules": Array [
+                                      "
+  ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1.1875rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.5rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.375rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "font-weight: 400;",
+                                      "
+  ",
+                                      "
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: ",
+                                      "3rem",
+                                      ";
+  ",
+                                      [Function],
+                                      ";
+
+  &:last-child {
+    margin-right: 0;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.li",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bxivhb",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              onClick={[Function]}
+                            >
+                              <li
+                                className="c1"
+                                onClick={[Function]}
+                              >
+                                Second
+                              </li>
+                            </StyledComponent>
+                          </styled.li>
+                          <styled.li
+                            active={true}
+                            key="head-2"
+                            onClick={[Function]}
+                          >
+                            <StyledComponent
+                              active={true}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bxivhb",
+                                    "isStatic": false,
+                                    "lastClassName": "c1",
+                                    "rules": Array [
+                                      "
+  ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1.1875rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.5rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.375rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "font-weight: 400;",
+                                      "
+  ",
+                                      "
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: ",
+                                      "3rem",
+                                      ";
+  ",
+                                      [Function],
+                                      ";
+
+  &:last-child {
+    margin-right: 0;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.li",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bxivhb",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              onClick={[Function]}
+                            >
+                              <li
+                                className="c2"
+                                onClick={[Function]}
+                              >
+                                Third
+                              </li>
+                            </StyledComponent>
+                          </styled.li>
+                          <styled.li
+                            active={false}
+                            key="head-3"
+                            onClick={[Function]}
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bxivhb",
+                                    "isStatic": false,
+                                    "lastClassName": "c1",
+                                    "rules": Array [
+                                      "
+  ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1.1875rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "font-size: ",
+                                      "1rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(min-width: 980px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.5rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+        ",
+                                      "
+      @media ",
+                                      "(max-width: 979px)",
+                                      " {
+        ",
+                                      "line-height: ",
+                                      "1.375rem",
+                                      ";",
+                                      ";
+      }
+    ",
+                                      "
+      ",
+                                      "
+    ",
+                                      "font-weight: 400;",
+                                      "
+  ",
+                                      "
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  margin-right: ",
+                                      "3rem",
+                                      ";
+  ",
+                                      [Function],
+                                      ";
+
+  &:last-child {
+    margin-right: 0;
+  }
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.li",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bxivhb",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              onClick={[Function]}
+                            >
+                              <li
+                                className="c1"
+                                onClick={[Function]}
+                              >
+                                Last
+                              </li>
+                            </StyledComponent>
+                          </styled.li>
+                        </ul>
+                      </StyledComponent>
+                    </styled.ul>
+                    <styled.div>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-htpNat",
+                              "isStatic": true,
+                              "lastClassName": "KtFsv",
+                              "rules": Array [],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-htpNat",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <div
+                          className=""
+                        >
+                          <styled.div
+                            active={false}
+                            key="item-0"
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "
+  ",
+                                      [Function],
+                                      ";
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="c3"
+                              >
+                                <TabPage
+                                  header="First"
+                                >
+                                  <div>
+                                    First content.
+                                  </div>
+                                </TabPage>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
+                          <styled.div
+                            active={false}
+                            key="item-1"
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "
+  ",
+                                      [Function],
+                                      ";
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="c3"
+                              >
+                                <TabPage
+                                  header="Second"
+                                >
+                                  <div>
+                                    Second content.
+                                  </div>
+                                </TabPage>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
+                          <styled.div
+                            active={true}
+                            key="item-2"
+                          >
+                            <StyledComponent
+                              active={true}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "
+  ",
+                                      [Function],
+                                      ";
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className=""
+                              >
+                                <TabPage
+                                  header="Third"
+                                >
+                                  <div>
+                                    Third content.
+                                  </div>
+                                </TabPage>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
+                          <styled.div
+                            active={false}
+                            key="item-3"
+                          >
+                            <StyledComponent
+                              active={false}
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-ifAKCX",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "
+  ",
+                                      [Function],
+                                      ";
+",
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-ifAKCX",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <div
+                                className="c3"
+                              >
+                                <TabPage
+                                  header="Last"
+                                >
+                                  <div>
+                                    Final content.
+                                  </div>
+                                </TabPage>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </TabPanel>
+          </div>
+        </TabInt>
+      </ModeProvider>
+    </Responsive>
+  </TabControl>
+</Tabs>
+`;
