@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled, { themed } from '../../utils/styled';
 import { KeyCodes } from '../../utils/keyCodes';
 import { showInputInfo } from '../../utils/input';
-import { LabeledInputProps, InputChangeEvent, ScreenSize } from '../../common';
+import { ScreenSize } from '../../common';
 import { InputIcon } from '../InputIcon';
 import { FormContextProps } from '../../hoc/withFormContext';
 import { transparent } from '../../colors';
@@ -26,13 +26,7 @@ import {
   StyledIconContainer,
 } from '../../quarks';
 import { getFontStyle } from '../../textStyles';
-import onClickOutside from 'react-onclickoutside';
-import {
-  DropdownFieldToggleEvent,
-  DropdownFieldChangeEvent,
-  DropdownFieldItem,
-  DropdownFieldProps,
-} from './DropdownField.types.part';
+import { DropdownFieldItem, DropdownFieldProps } from './DropdownField.types.part';
 
 const DropdownContainer = styled.div`
   position: relative;
@@ -197,6 +191,7 @@ function getMultipleContent(item: string | DropdownFieldItem, theme?: any) {
 
 interface DropdownState {
   value: Array<number>;
+  error?: React.ReactChild;
   open: boolean;
   controlled: boolean;
 }
@@ -216,8 +211,9 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
 
     this.state = {
       value: getIndices(data, value, props.multiple),
-      open: false,
+      open: props.open === true,
       controlled: props.value !== undefined,
+      error: props.error,
     };
   }
 
@@ -237,16 +233,16 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
     }
   }
 
-  componentWillReceiveProps(nextProps: DropdownFieldProps) {
+  componentWillReceiveProps({ data = [], value = [], error, multiple }: DropdownFieldProps) {
     const { controlled } = this.state;
 
     if (controlled) {
-      const data = nextProps.data || [];
-      const value = nextProps.value !== undefined ? nextProps.value : [];
       this.setState({
-        value: getIndices(data, value, nextProps.multiple),
+        value: getIndices(data, value, multiple),
       });
     }
+
+    this.setState({ error });
   }
 
   private show = () =>
@@ -302,7 +298,6 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
   };
 
   private handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
-    console.log('hello');
     this.toggle();
     e.preventDefault();
   };
@@ -336,7 +331,7 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
   };
 
   private renderList = (screenSize?: ScreenSize) => {
-    const { data = [], theme, disabled, multiple } = this.props;
+    const { data = [], theme, disabled, multiple, direction, disabledItems } = this.props;
     const { open, value } = this.state;
     const mobile = screenSize === 'small';
     const wrapper = mobile ? getMobileWrapper(<StyledLabel>{this.props.label}</StyledLabel>) : StandardWrapper;
@@ -354,7 +349,9 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
         indices={value}
         customWrapper={wrapper}
         onClickOutside={() => {}}
-        autoPosition
+        direction={direction}
+        autoPosition={undefined === direction}
+        disabledItems={disabledItems}
         autoFocus
       />
     );
@@ -366,6 +363,7 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
       children: _0,
       value: _1,
       defaultValue: _2,
+      onInput: _3,
       data = [],
       theme,
       className: classNameProp,
@@ -375,11 +373,11 @@ export class DropdownFieldInt extends React.Component<DropdownFieldProps & FormC
       disabled,
       multiple,
       info,
-      error,
       onChange,
+      disabledItems,
       ...other
     } = this.props;
-    const { open: openState, value } = this.state;
+    const { open: openState, value, error } = this.state;
     const open = openState && !disabled;
     const getContent = multiple ? getMultipleContent : getSingleContent;
     const hasValue = !!value.length;
